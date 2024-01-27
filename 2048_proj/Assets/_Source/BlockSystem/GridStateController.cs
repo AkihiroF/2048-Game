@@ -181,6 +181,8 @@ namespace BlockSystem
                 }
                 else if (nextTile.Score != 0)
                 {
+                    x -= (int)direction.x;
+                    y -= (int)direction.y;
                     break;
                 }
             }
